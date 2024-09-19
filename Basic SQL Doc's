@@ -1,0 +1,22 @@
+
+SQL :- Structured query language (SQL) is a programming language for storing and processing information in a relational database.
+
+SQL Clauses:-
+
+- The sql clauses can help filter out the data according to the users' needs.
+- The main clauses are :-
+- SELECT, FROM, WHERE, GROUP BY, HAVING, ORDER BY, INSERT, UPDATE, DELETE, and JOIN.
+-  Each clause has a syntax and its own set of rules and options.
+
+SQL Statements:-
+
+Most of the actions you need to perform on a database are done with SQL statements. SQL statements consists of keywords that are easy to understand.
+
+Types of SQL Statements:
+
+1.Data Definition Language (DDL) Statements.
+2.Data Manipulation Language (DML) Statements.
+3.Transaction Control Statements.
+4.Session Control Statements.
+5.System Control Statement.
+6.Embedded SQL Statements.
