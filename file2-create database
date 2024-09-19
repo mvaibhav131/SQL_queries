@@ -1,0 +1,9 @@
+
+create database {databasename}
+ex- create database vmlocaldb
+then connect this db to ssms server - server Name= (localdb)\vmlocaldb
+
+
+use the current created database
+use {databasename}
+ex- use sample_db
