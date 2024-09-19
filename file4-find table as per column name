@@ -1,0 +1,6 @@
+
+use Sample_DB  // select your database
+
+select * from employee_info // shows all column of table employee_info
+
+select empId,empName from employee_info  // shows empId,empName column of table employee_info
