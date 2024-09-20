@@ -1,0 +1,8 @@
+To delete the table completely, use the DROP TABLE statement:
+
+Example
+Remove the Customers table:
+=> DROP TABLE Customers;
+
+Remove the Employeeinfo table completely:
+=> drop table Employeeinfo
