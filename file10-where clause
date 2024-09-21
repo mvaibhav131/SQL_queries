@@ -1,0 +1,14 @@
+
+The WHERE clause is used to filter records.
+
+SELECT column1, column2, ... FROM table_name WHERE condition;
+
+Note: The WHERE clause is not only used in SELECT statements, it is also used in UPDATE, DELETE, etc.!
+
+
+
+// filter the employe name whose id is 3
+ select empName from employee_info where empId=3
+
+// Select all customers from Mexico:
+SELECT * FROM Customers WHERE Country='Mexico';
