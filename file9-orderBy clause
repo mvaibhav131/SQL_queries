@@ -1,0 +1,22 @@
+
+The ORDER BY keyword is used to sort the result-set in ascending or descending order.
+
+SELECT column1, column2, ...
+FROM table_name
+ORDER BY column1, column2, ... ASC|DESC;
+
+Example:-
+// employee name order by ascending order shows only empName column.
+select empName from employee_info order by empName asc
+
+// employee name order by ascending order shows all column.
+select * from employee_info order by empName asc
+
+// Sort the products from highest to lowest price:
+SELECT * FROM Products ORDER BY Price DESC;
+
+// Using Both ascending and descending order
+SELECT * FROM Customers ORDER BY Country ASC, CustomerName DESC;
+
+//Order by several column, The following SQL statement selects all customers from the "Customers" table, sorted by the "Country" and the "CustomerName" column. This means that it orders by Country, but if some rows have the same Country, it orders them by CustomerName:-
+SELECT * FROM Customers ORDER BY Country, CustomerName;
