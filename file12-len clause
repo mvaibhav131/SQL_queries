@@ -1,0 +1,7 @@
+Return the length of a string:
+
+Examples:-
+select empName, len(empName) from employee_info 
+select len('vaibhavmore.in'); // output 14
+select len('hi iamgenious'); // output 13
+
