@@ -1,0 +1,36 @@
+
+ABS      convert negavite to positive value
+CEILING  return upper value of floating value
+FLOOR    return lower value of floating value
+SIGN     return 1 if number +ve return -1 if -ve else 0
+SQRT	 Returns the square root of a number
+SQUARE	 Returns the square of a number
+SUM	     Calculates the sum of a set of values
+SIN      Returns the value of math Sin function
+COS      It returns the cosine of a number, in radians
+TAN	     Returns the tangent of a number
+DEGREES  It converts a radian value into degrees.
+PI       Reture pie value 3.1423..
+EXP      Return the exponential value
+IsNumeric This function returns 1 if the expression is numeric, otherwise it returns 0.
+
+
+select abs(-12) // 12
+select ceiling(45.66) //46
+select floor(55.67) // 55
+select sign(5) //1
+select sign(-89) //-1
+select sign(0) // 0
+select square(5) //25
+select sqrt(81) //9
+select cos(30) // 0.15425144988758405
+select degrees(1.5) //85.94366926962348
+select exp(1) //2.71828182845905
+select isnumeric(45),isnumeric('65'),isnumeric('hello') //1 1 0
+
+SUM Function
+SELECT SUM(column_name) FROM table_name WHERE condition;
+// Return the sum of the Quantity field for the product with ProductID 11:
+SELECT SUM(Quantity) FROM OrderDetails WHERE ProductId = 11;
+
+
