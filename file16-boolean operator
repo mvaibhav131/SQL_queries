@@ -1,0 +1,31 @@
+
+Boolean Operator return the data as per selection of column else all data if select *
+The WHERE clause can be combined with AND, OR, and NOT operators.
+
+The AND and OR operators are used to filter records based on more than one condition:
+
+The AND operator displays a record if all the conditions separated by AND are TRUE.
+The OR operator displays a record if any of the conditions separated by OR is TRUE.
+The NOT operator displays a record if the condition(s) is NOT TRUE.
+
+SELECT column1, column2, ... FROM table_name WHERE condition1 AND condition2 AND condition3 ...;
+SELECT column1, column2, ... FROM table_name WHERE condition1 OR condition2 AND condition3 ...;
+SELECT column1, column2, ... FROM table_name WHERE NOT condition;
+
+Example:-
+
+select username from table_user_login where email='wonder@woman.com'
+select username from table_user_login where email='tony@stark.com' and password='tony123'
+select * from table_user_login where username='spidy' and password='perter123'
+select * from table_user_login where username='spidy' or password='peter123'
+select * from table_user_login where username='wonder'
+select * from table_user_login where not username='wonder'
+select * from table_user_login where username != 'wonder'
+
+
+SELECT * FROM Customers WHERE Country = 'Germany' AND City = 'Berlin';
+SELECT * FROM Customers WHERE City = 'Berlin' OR City = 'Stuttgart';
+SELECT * FROM Customers WHERE NOT Country = 'Germany';
+SELECT * FROM Customers WHERE NOT Country = 'Germany' AND NOT Country = 'USA';
+
+
