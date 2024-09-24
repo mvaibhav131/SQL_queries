@@ -1,0 +1,13 @@
+
+select ltrim('   trim left side space') //trim the left space
+
+select rtrim('trim right side space      ') //trim the right side space
+
+select ltrim('  hihiouiou') ,rtrim('kjlkjlkjl       ') // at a time both side trim
+
+select substring('microsoft',1,4)  // micr
+
+select replace('Vaibhav','bhav','more') // Vaimore
+
+select replicate('Vaibhav ',6) //Vaibhav Vaibhav Vaibhav Vaibhav Vaibhav Vaibhav 
+replicate function recall the string as per the second value
