@@ -1,0 +1,17 @@
+The GROUP BY statement groups rows that have the same values into summary rows, like "find the number of customers in each country".
+
+The GROUP BY statement is often used with aggregate functions (COUNT(), MAX(), MIN(), SUM(), AVG()) to group the result-set by one or more columns.
+
+SELECT column_name(s) FROM table_name WHERE condition GROUP BY column_name(s) ORDER BY column_name(s);
+
+Example:
+
+
+select deptID from employee_info group by deptID
+select sum(empSalary) from employee_info group by deptID
+select deptID,sum(empSalary) from employee_info group by deptID
+select deptID,avg(empSalary) as "AVG Salary" from employee_info group by deptID
+select deptID,round(avg(empSalary),1) as "AVG Salary" from employee_info group by deptID
+
+SELECT COUNT(CustomerID), Country FROM Customers GROUP BY Country;
+SELECT COUNT(CustomerID), Country FROM Customers GROUP BY Country ORDER BY COUNT(CustomerID) DESC;
