@@ -1,0 +1,45 @@
+The most difficult part when working with dates is to be sure that the format of the date you are trying to insert, matches the format of the date column in the database.
+
+MySQL comes with the following data types for storing a date or a date/time value in the database:
+
+DATE - format YYYY-MM-DD
+DATETIME - format: YYYY-MM-DD HH:MI:SS
+TIMESTAMP - format: YYYY-MM-DD HH:MI:SS
+YEAR - format YYYY or YY
+SQL Server comes with the following data types for storing a date or a date/time value in the database:
+
+DATE - format YYYY-MM-DD
+DATETIME - format: YYYY-MM-DD HH:MI:SS
+SMALLDATETIME - format: YYYY-MM-DD HH:MI:SS
+TIMESTAMP - format: a unique number
+Note: The date types are chosen for a column when you create a new table in your database!
+
+Examples:-
+
+
+select getDate() as Today_date // Today_date 2024-08-29 17:49:56.513
+
+select sysdatetime() as Today_date //Today_date 2024-08-29 17:50:28.5796758
+
+select current_timestamp as Today_date //Today_date 2024-08-29 17:50:51.050
+
+select datename(month,current_timestamp) as Month //August
+
+select datename(year,current_timestamp) as Year // Year 2024
+
+select datename(hour,current_timestamp) as Hour // Hour 17
+
+select datename(minute,current_timestamp) as Minute // Minute 51
+
+select datename(second,current_timestamp) as Second //second 56
+
+select datediff(year,'may 24 1997',current_timestamp) as AGEInYear // AGEInYear 27
+
+select datediff(month,'may 24 1997',current_timestamp) as AGEINMonth // AGEInMonth 327
+
+select datediff(year,'may 24 1997','january 3 2020') as AGEdiffintwodiffrentyears // AGEdiffintwodiffrentyears 23
+
+select dateadd(year,100,current_timestamp) as '100YearsfromNow' // 2124-08-29 17:52:41.087
+
+select dateadd(month,32,current_timestamp) as '32MonthfromNow' // 2027-04-29 17:53:08.010
+
