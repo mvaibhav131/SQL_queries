@@ -1,0 +1,19 @@
+It can be used for give temporary name for column or table.
+
+Column Aliases :- it is used to make column heading in query output easier to read
+                 (Specially with Column and Function Concatanation)
+
+Table Aliases :- are used to shorten your SQL to make it easier to read.
+                 (Specially in Join and Subquery)
+
+Syntax :- SELECT column_name AS alias_name FROM table_name;
+
+Example :-
+          Select sal as 'Salary' from employee_table
+          Select fname || lname as 'FullName' from employee_table
+
+          yor can write it without (as) also
+
+          Select sal 'Salary' from employee_table
+          Select fname || lname 'FullName' from employee_table
+ multiple columns heading edit in same query:- Select fname as 'FirstName',lname as 'LastName',id ad 'employeeId' from employeetable
