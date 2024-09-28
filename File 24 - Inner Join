@@ -1,0 +1,47 @@
+It return the all rows from multiple tables where the join condition is satisfied.
+It is also called natural join, simple join, equi join(because in condition uses = operator)
+
+syntax: Select column_names from table1name inner join table2name ON table1name.column_name = table2name.column_name
+
+Example:
+
+CREATE TABLE Employees (
+    EmployeeID INT PRIMARY KEY,
+    FirstName VARCHAR(50),
+    LastName VARCHAR(50),
+    DepartmentID INT
+);
+
+INSERT INTO Employees (EmployeeID, FirstName, LastName, DepartmentID)
+VALUES
+(1, 'John', 'Doe', 101),
+(2, 'Jane', 'Smith', 102),
+(3, 'Jim', 'Brown', 101),
+(4, 'Jake', 'White', 103);
+
+select * from Employees
+
+CREATE TABLE Departments (
+    DepartmentID INT PRIMARY KEY,
+    DepartmentName VARCHAR(50)
+);
+
+insert into Departments (DepartmentID,DepartmentName) values (101,'Sales'),(102,'Marketing'),(103,'Developer')
+
+select * from Departments
+
+Now join the both table according to departmentId
+
+select * from Employees inner join Departments on Employees.DepartmentID=Departments.DepartmentID
+
+SELECT 
+    Employees.EmployeeID, 
+    Employees.FirstName, 
+    Employees.LastName, 
+    Departments.DepartmentName
+FROM 
+    Employees
+INNER JOIN 
+    Departments
+ON 
+    Employees.DepartmentID = Departments.DepartmentID;
