@@ -1,0 +1,49 @@
+
+LEFT (OUTER) JOIN  :  Returns all records from the left table, and the matched records from the right table
+RIGHT (OUTER) JOIN :  Returns all records from the right table, and the matched records from the left table
+FULL (OUTER) JOIN  :  Returns all records when there is a match in either left or right table
+
+NOTE : IF No matching data found those row return NULL values.
+
+condition : select column_name from table1 left outer join table2 on table1.columnname=table2.column_name
+
+CREATE TABLE Employees (
+    EmployeeID INT PRIMARY KEY,
+    FirstName VARCHAR(50),
+    LastName VARCHAR(50),
+    DepartmentID INT
+);
+
+INSERT INTO Employees (EmployeeID, FirstName, LastName, DepartmentID)
+VALUES
+(1, 'John', 'Doe', 101),
+(2, 'Jane', 'Smith', 102),
+(3, 'Jim', 'Brown', 101),
+(4, 'Jake', 'White', 103);
+
+select * from Employees
+
+CREATE TABLE Departments (
+    DepartmentID INT PRIMARY KEY,
+    DepartmentName VARCHAR(50)
+);
+
+insert into Departments (DepartmentID,DepartmentName) values (101,'Sales'),(102,'Marketing'),(103,'Developer')
+
+select * from Departments
+
+Now join the both table according to departmentId
+
+select * from Employees Left Outer join Departments on Employees.DepartmentID=Departments.DepartmentID
+
+SELECT 
+    Employees.EmployeeID, 
+    Employees.FirstName, 
+    Employees.LastName, 
+    Departments.DepartmentName
+FROM 
+    Employees
+LEFT OUTER JOIN 
+    Departments
+ON 
+    Employees.DepartmentID = Departments.DepartmentID;
