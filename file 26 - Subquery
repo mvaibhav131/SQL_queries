@@ -3,4 +3,5 @@ A subquery is embedded inside another query and acts as input or output for that
 
 Here is an example of a subquery:-
 
- SELECT * FROM t1 WHERE column1 = (SELECT column1 FROM t2); In this example, SELECT * FROM t1 ... is the outer query (or outer statement), and (SELECT column1 FROM t2) is the subquery.
+ SELECT * FROM t1 WHERE column1 = (SELECT column1 FROM t2); In this example,
+SELECT * FROM t1 ... is the outer query (or outer statement), and (SELECT column1 FROM t2) is the subquery.
