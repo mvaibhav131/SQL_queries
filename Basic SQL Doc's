@@ -6,7 +6,7 @@ SQL Clauses:-
 - The sql clauses can help filter out the data according to the users' needs.
 - The main clauses are :-
 - SELECT, FROM, WHERE, GROUP BY, HAVING, ORDER BY, INSERT, UPDATE, DELETE, and JOIN.
--  Each clause has a syntax and its own set of rules and options.
+- Each clause has a syntax and its own set of rules and options.
 
 SQL Statements:-
 
