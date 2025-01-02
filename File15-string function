@@ -1,4 +1,3 @@
-
 select ltrim('   trim left side space') //trim the left space
 
 select rtrim('trim right side space      ') //trim the right side space
