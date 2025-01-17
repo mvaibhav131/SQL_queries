@@ -1,4 +1,4 @@
  # SQL_queries
  ### ALL Sql queries.
- ### sql documentation.
+ ### sql documentations.
  ### SSMS (Sql server management studio) Installation and exapmles.
