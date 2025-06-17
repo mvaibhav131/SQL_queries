@@ -6,6 +6,6 @@ It is used to join the 2,3,4 table (used for retrive the data from multiple tabl
 
  Types of Join :-
 
- 1) Inner Join
- 2) Outer Join (Left outer join,Right outer join,Full Outer Join)
- 3) Cross Join
+ 1) Inner Join.
+ 2) Outer Join (Left outer join,Right outer join,Full Outer Join).
+ 3) Cross Join.
