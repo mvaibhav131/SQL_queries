@@ -8,4 +8,4 @@ The following SQL statement selects the first three records from the "Customers"
 
 SELECT * FROM Customers LIMIT 3 // selecting the top 3 customers
 
-Select * from customers limit 1000 // selecting the top 1000 customers
+Select * from customers limit 1000 // selecting the top 1000 customer
