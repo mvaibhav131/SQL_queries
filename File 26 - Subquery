@@ -4,5 +4,5 @@ Subqueries are also called inner queries and they can be used in various complex
 
 Here is an example of a subquery :-
 
-SELECT * FROM t1 WHERE column1 = (SELECT column1 FROM t2); In this example,
+SELECT * FROM t1 WHERE column1 = (SELECT column1 FROM t2); In this example.
 SELECT * FROM t1 ... is the outer query (or outer statement), and (SELECT column1 FROM t2) is the subquery.
