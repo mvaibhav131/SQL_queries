@@ -13,7 +13,6 @@ CREATE TABLE Employees (
     LastName VARCHAR(50),
     DepartmentID INT
 );
-
 INSERT INTO Employees (EmployeeID, FirstName, LastName, DepartmentID)
 VALUES
 (1, 'John', 'Doe', 101),
