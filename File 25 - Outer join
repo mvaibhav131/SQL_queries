@@ -3,7 +3,7 @@ LEFT (OUTER) JOIN  :  Returns all records from the left table, and the matched r
 RIGHT (OUTER) JOIN :  Returns all records from the right table, and the matched records from the left table.
 FULL (OUTER) JOIN  :  Returns all records when there is a match in either left or right tables.
 
-NOTE : IF No matching data found those row return NULL values.
+NOTE : IF No matching data found those row return NULL values..
 
 condition : select column_name from table1 left outer join table2 on table1.columnname=table2.column_name
 
