@@ -45,4 +45,4 @@ FROM
 INNER JOIN 
     Departments
 ON 
-    Employees.DepartmentID = Departments.DepartmentID;
+    Employees.DepartmentID = Departments.DepartmentID
