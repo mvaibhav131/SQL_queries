@@ -1,6 +1,6 @@
 The most difficult part when working with dates is to be sure that the format of the date you are trying to insert, matches the format of the date column in the database.
 
-MySQL comes with the following data types for storing a date or a date/time value in the database:
+MySQL comes with the following data types for storing a date or a date/time value in the database:-
 
 DATE - format YYYY-MM-DD
 DATETIME - format: YYYY-MM-DD HH:MI:SS
