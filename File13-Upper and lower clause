@@ -1,7 +1,7 @@
 Upper - Convert the text to upper-case:
 Lower - Convert the text to lower-case:
 
-Example:-
+Example :-
 
 select upper('this is convert into upper case') // THIS IS CONVERT INTO UPPER CASE
 
