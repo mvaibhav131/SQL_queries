@@ -1,5 +1,5 @@
 
-The WHERE clause is used to filter records.
+The WHERE clause is used to filter records
 
 SELECT column1, column2, ... FROM table_name WHERE condition;
 
