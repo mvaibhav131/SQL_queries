@@ -4,5 +4,5 @@ Examples:-
 
 select empName, len(empName) from employee_info 
 select len('vaibhavmore.in'); // output 14
-select len('hi iamgenious'); // output 13
+select len('hi iamgenious');  // output 13
 
