@@ -3,7 +3,6 @@ Lower - Convert the text to lower-case:
 
 Example :-
 
-select upper('this is convert into upper case') // THIS IS CONVERT INTO UPPER CASE.
-
+select upper('this is convert into upper case')   // THIS IS CONVERT INTO UPPER CASE.
 select empName, lower(empName) from employee_info // emp name convert into lower case.
 
