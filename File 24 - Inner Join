@@ -33,7 +33,7 @@ select * from Departments
 
 Now join the both table according to departmentId
 
-select * from Employees inner join Departments on Employees.DepartmentID=Departments.DepartmentID
+select * from Employees inner join Departments on Employees.DepartmentID = Departments.DepartmentID
 
 SELECT 
     Employees.EmployeeID, 
