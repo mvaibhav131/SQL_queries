@@ -24,7 +24,7 @@ select * from Employees
 
 CREATE TABLE Departments (
     DepartmentID INT PRIMARY KEY,
-    DepartmentName VARCHAR(50)
+    DepartmentName VARCHAR(50),
 );
 
 insert into Departments (DepartmentID,DepartmentName) values (101,'Sales'),(102,'Marketing'),(103,'Developer')
