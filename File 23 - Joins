@@ -3,7 +3,6 @@ A JOIN clause is used to combine rows from two or more tables, based on a relate
 It is used to join the 2,3,4 table (used for retrive the data from multiple tables).
  
  Condition Check :- if you join the two table make sure that both table any one column is same name.
-
  Types of Join :-
 
  1) Inner Join.
