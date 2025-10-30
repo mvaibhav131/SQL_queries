@@ -4,7 +4,7 @@ It is also called natural join, simple join, equi join(because in condition uses
 
 syntax: Select column_names from table1name inner join table2name ON table1name.column_name = table2name.column_name
 
-Example :-
+Example:-
 
 CREATE TABLE Employees (
     EmployeeID INT PRIMARY KEY,
