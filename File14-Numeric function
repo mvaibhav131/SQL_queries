@@ -26,7 +26,7 @@ select sqrt(81)        //9
 select cos(30)         // 0.15425144988758405
 select degrees(1.5)    //85.94366926962348
 select exp(1)          //2.71828182845905
-select isnumeric(45),isnumeric('65'),isnumeric('hello')  //1 1 0
+select isnumeric(45),isnumeric('65'),isnumeric('hello')  // 1 1 0
 
 SUM Function
 SELECT SUM(column_name) FROM table_name WHERE condition;
