@@ -12,7 +12,7 @@ SQL Statements:-
 
 Most of the actions you need to perform on a database are done with SQL statements. SQL statements consists of keywords that are easy to understand.
 
-Types of SQL Statements:-
+Types of SQL Statements :-
 
 1.Data Definition Language (DDL) Statements.
 2.Data Manipulation Language (DML) Statements.
