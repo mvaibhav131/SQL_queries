@@ -9,7 +9,7 @@ Note:If Where condition not passes it will update all table data as per conditio
 Example :-
 
 // update the empName where empId is 2
-update employee_info set empName='Manish' where empId=2
+update employee_info set empName='Manish' where empId = 2
 
 // update all empSalary by 1000 because not passes the where statement.
 update employee_info set empSalary=empSalary+1000
