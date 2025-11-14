@@ -6,7 +6,7 @@ SET column1 = value1, column2 = value2, ...
 WHERE condition;
 
 Note:If Where condition not passes it will update all table data as per condition.
-Example:-
+Example :-
 
 // update the empName where empId is 2
 update employee_info set empName='Manish' where empId=2
