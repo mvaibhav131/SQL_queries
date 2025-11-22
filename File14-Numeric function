@@ -1,7 +1,7 @@
 
-ABS      convert negavite to positive value
-CEILING  return upper value of floating value
-FLOOR    return lower value of floating value
+ABS     -   convert negavite to positive value
+CEILING -   return upper value of floating value
+FLOOR   -   return lower value of floating value
 SIGN     return 1 if number +ve return -1 if -ve else 0
 SQRT	 Returns the square root of a number
 SQUARE	 Returns the square of a number
