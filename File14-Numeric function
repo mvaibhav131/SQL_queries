@@ -4,13 +4,13 @@ CEILING -   return upper value of floating value
 FLOOR   -   return lower value of floating value
 SIGN    -   return 1 if number +ve return -1 if -ve else 0
 SQRT	  -   Returns the square root of a number
-SQUARE	 Returns the square of a number
-SUM	     Calculates the sum of a set of values
-SIN      Returns the value of math Sin function
-COS      It returns the cosine of a number, in radians
-TAN	     Returns the tangent of a number
-DEGREES  It converts a radian value into degrees.
-PI       Reture pie value 3.1423..
+SQUARE	-   Returns the square of a number
+SUM	    -   Calculates the sum of a set of values
+SIN     -   Returns the value of math Sin function
+COS     -   It returns the cosine of a number, in radians
+TAN	    -   Returns the tangent of a number
+DEGREES -   It converts a radian value into degrees.
+PI      -   Reture pie value 3.1423..
 EXP      Return the exponential value
 IsNumeric This function returns 1 if the expression is numeric, otherwise it returns 0.
 
