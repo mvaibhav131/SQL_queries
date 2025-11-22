@@ -2,8 +2,8 @@
 ABS     -   convert negavite to positive value
 CEILING -   return upper value of floating value
 FLOOR   -   return lower value of floating value
-SIGN     return 1 if number +ve return -1 if -ve else 0
-SQRT	 Returns the square root of a number
+SIGN    -   return 1 if number +ve return -1 if -ve else 0
+SQRT	  -   Returns the square root of a number
 SQUARE	 Returns the square of a number
 SUM	     Calculates the sum of a set of values
 SIN      Returns the value of math Sin function
