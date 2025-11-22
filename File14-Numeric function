@@ -11,8 +11,8 @@ COS     -   It returns the cosine of a number, in radians
 TAN	    -   Returns the tangent of a number
 DEGREES -   It converts a radian value into degrees.
 PI      -   Reture pie value 3.1423..
-EXP      Return the exponential value
-IsNumeric This function returns 1 if the expression is numeric, otherwise it returns 0.
+EXP     -   Return the exponential value
+IsNumeric - This function returns 1 if the expression is numeric, otherwise it returns 0.
 
 
 select abs(-12)        // 12
