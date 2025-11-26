@@ -1,4 +1,4 @@
-Return the length of a string:-
+Return the length of a string :-
 
 Examples:-
 select empName, len(empName) from employee_info 
