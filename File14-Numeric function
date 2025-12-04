@@ -15,17 +15,17 @@ EXP     -   Return the exponential value
 IsNumeric - This function returns 1 if the expression is numeric, otherwise it returns 0.
 
 
-select abs(-12)        // 12
-select ceiling(45.66)  //46
-select floor(55.67)    // 55
-select sign(5)         //1
-select sign(-89)       //-1
-select sign(0)         // 0
-select square(5)       //25
-select sqrt(81)        //9
-select cos(30)         // 0.15425144988758405
-select degrees(1.5)    //85.94366926962348
-select exp(1)          //2.71828182845905
+select abs(-12)         // 12
+select ceiling(45.66)   //46
+select floor(55.67)     // 55
+select sign(5)          //1
+select sign(-89)        //-1
+select sign(0)          // 0
+select square(5)        //25
+select sqrt(81)         //9
+select cos(30)          // 0.15425144988758405
+select degrees(1.5)     //85.94366926962348
+select exp(1)           //2.71828182845905
 select isnumeric(45),isnumeric('65'),isnumeric('hello')  // 1 1 0
 
 SUM Function
