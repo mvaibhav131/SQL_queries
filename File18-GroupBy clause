@@ -7,11 +7,11 @@ SELECT column_name(s) FROM table_name WHERE condition GROUP BY column_name(s) OR
 Example :-
 
 
-select deptID from employee_info group by deptID
-select sum(empSalary) from employee_info group by deptID
-select deptID,sum(empSalary) from employee_info group by deptID
-select deptID,avg(empSalary) as "AVG Salary" from employee_info group by deptID
-select deptID,round(avg(empSalary),1) as "AVG Salary" from employee_info group by deptID
+select deptID from employee_info group by deptID 
+select sum(empSalary) from employee_info group by deptID 
+select deptID,sum(empSalary) from employee_info group by deptID 
+select deptID,avg(empSalary) as "AVG Salary" from employee_info group by deptID 
+select deptID,round(avg(empSalary),1) as "AVG Salary" from employee_info group by deptID 
 
 SELECT COUNT(CustomerID), Country FROM Customers GROUP BY Country;
 SELECT COUNT(CustomerID), Country FROM Customers GROUP BY Country ORDER BY COUNT(CustomerID) DESC;
