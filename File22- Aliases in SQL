@@ -6,7 +6,7 @@ Column Aliases :- it is used to make column heading in query output easier to re
 Table Aliases :- are used to shorten your SQL to make it easier to read.
                  (Specially in Join and Subquery)
 
-Syntax :- SELECT column_name AS alias_name FROM table_name ;
+Syntax :- SELECT column_name AS alias_name FROM table_name;
 
 Example :-
           Select sal as 'Salary' from employee_table
