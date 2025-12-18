@@ -6,6 +6,6 @@ SELECT column_name(s) FROM table_name WHERE condition LIMIT number.
 
 The following SQL Statement selects the first three records from the "Customers" table :-
 
-SELECT * FROM Customers LIMIT 3       // selecting the top 3 customers.
+SELECT * FROM Customers LIMIT 3.       // selecting the top 3 customers.
 
-Select * from customers limit 1000    // selecting the top 1000 customers.
+Select * from customers limit 1000.    // selecting the top 1000 customers.
