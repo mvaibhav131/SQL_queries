@@ -9,4 +9,5 @@ select substring('microsoft',1,4)  // micr
 select replace('Vaibhav','bhav','more') // Vaimore
 
 select replicate('Vaibhav ',6) //Vaibhav Vaibhav Vaibhav Vaibhav Vaibhav Vaibhav 
+
 replicate function recall the string as per the second value
