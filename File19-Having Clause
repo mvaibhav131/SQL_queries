@@ -2,7 +2,7 @@ The HAVING clause was added to SQL because the WHERE keyword cannot be used with
 
 SELECT column_name(s) FROM table_name WHERE condition GROUP BY column_name(s) HAVING condition ORDER BY column_name(s);
 
-Example:-
+Example :-
 
 select deptID,round(avg(empSalary),1) as "AVG Salary" from employee_info group by deptID having deptID = 23
 select deptID,round(avg(empSalary),1) as "AVG Salary" from employee_info group by deptID having deptID > 20
