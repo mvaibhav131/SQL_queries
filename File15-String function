@@ -4,7 +4,7 @@ select rtrim('trim right side space      ') //trim the right side space
 
 select ltrim('  hihiouiou') ,rtrim('kjlkjlkjl       ') // at a time both side trim
 
-select substring('microsoft',1,4)  // micr
+select substring('microsoft',1,4)       // micr
 
 select replace('Vaibhav','bhav','more') // Vaimore
 
