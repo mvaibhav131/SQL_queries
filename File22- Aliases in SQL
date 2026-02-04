@@ -1,7 +1,6 @@
 It can be used for give temporary name for column or table.
 
 Column Aliases :- it is used to make column heading in query output easier to read
-
                  (Specially with Column and Function Concatanation)
 
 Table Aliases :- are used to shorten your SQL to make it easier to read.
