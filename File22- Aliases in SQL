@@ -12,7 +12,7 @@ Example :-
           Select sal as 'Salary' from employee_table
           Select fname || lname as 'FullName' from employee_table
 
-          yor can write it without (as) also
+          yor can write it without (as) also.
 
           Select sal 'Salary' from employee_table
           Select fname || lname 'FullName' from employee_table
