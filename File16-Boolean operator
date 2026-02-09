@@ -23,6 +23,7 @@ select * from table_user_login where not username='wonder'
 select * from table_user_login where username != 'wonder'
 
 
+
 SELECT * FROM Customers WHERE Country = 'Germany' AND City = 'Berlin';
 SELECT * FROM Customers WHERE City = 'Berlin' OR City = 'Stuttgart';
 SELECT * FROM Customers WHERE NOT Country = 'Germany';
