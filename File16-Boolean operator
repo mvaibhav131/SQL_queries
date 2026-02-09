@@ -12,7 +12,7 @@ SELECT column1, column2, ... FROM table_name WHERE condition1 AND condition2 AND
 SELECT column1, column2, ... FROM table_name WHERE condition1 OR condition2 AND condition3 ...;
 SELECT column1, column2, ... FROM table_name WHERE NOT condition;
 
-Example :-
+Example:-
 
 select username from table_user_login where email='wonder@woman.com'
 select username from table_user_login where email='tony@stark.com' and password='tony123'
