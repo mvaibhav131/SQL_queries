@@ -8,7 +8,6 @@ AVG() - returns the average value of a numerical column
 Aggregate functions ignore null values (except for COUNT())
 
 Examples :-
-
 select sum(empSalary) from employee_info 
 select avg(empSalary) from employee_info 
 select max(empSalary) from employee_info 
