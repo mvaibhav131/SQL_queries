@@ -2,7 +2,7 @@
 The UPDATE statement is used to modify the existing records in a table.
 
 UPDATE table_name
-SET column1 = value1, column2 = value2, ...
+SET column1 = value1, column2 = value2,....
 WHERE condition;
 
 Note:If Where condition not passes it will update all table data as per condition.
