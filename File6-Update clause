@@ -14,7 +14,7 @@ update employee_info set empName='Manish' where empId = 2
 // update all empSalary by 1000 because not passes the where statement.
 update employee_info set empSalary=empSalary+1000
 
-// update employee_info deptId where empId is 4
+// update employee_info deptId where empId is = 4
 update employee_info set deptID=4 where empId=4
 
 // update 2column where empName is Sanish
