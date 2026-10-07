@@ -1,8 +1,49 @@
-Upper - Convert the text to upper-case:
-Lower - Convert the text to lower-case:
+UPPER() and LOWER() Functions
 
-Example :-
+The UPPER() and LOWER() functions are used to change the case of text.
 
-select upper('this is convert into upper case')   // THIS IS CONVERT INTO UPPER CASE.
-select empName, lower(empName) from employee_info // emp name convert into lower case.
+1. UPPER() Function
 
+The UPPER() function is used to convert text into uppercase letters.
+
+Syntax:
+
+UPPER(string)
+
+Example:
+
+SELECT UPPER('this is convert into upper case');
+
+Output:
+THIS IS CONVERT INTO UPPER CASE
+
+
+2. LOWER() Function
+
+The LOWER() function is used to convert text into lowercase letters.
+
+Syntax:
+
+LOWER(string)
+
+Example:
+
+SELECT empName, LOWER(empName)
+FROM employee_info;
+
+Explanation:
+This converts all employee names from the empName column into lowercase letters.
+
+Example:
+
+SELECT LOWER('HELLO VAIBHAV');
+
+Output:
+hello vaibhav
+
+
+Key Point:
+
+UPPER() → Converts text to UPPERCASE.
+
+LOWER() → Converts text to lowercase.

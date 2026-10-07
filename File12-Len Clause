@@ -1,7 +1,35 @@
-Return the length of a string :-
+LEN() Function
 
-Examples:-
-select empName, len(empName) from employee_info 
-select len('vaibhavmore.in'); // output 14
-select len('hi iamgenious');  // output 13
+The LEN() function is used to return the number of characters in a string.
 
+Syntax:
+
+LEN(string)
+
+Example 1:
+
+SELECT empName, LEN(empName)
+FROM employee_info;
+
+This returns each employee's name along with the number of characters in the name.
+
+Example 2:
+
+SELECT LEN('vaibhavmore.in');
+
+Output: 14
+
+Explanation:
+LEN('vaibhavmore.in') returns 14 because the string contains 14 characters.
+
+Example 3:
+
+SELECT LEN('hi iamgenious');
+
+Output: 13
+
+Explanation:
+LEN('hi iamgenious') returns 13 because spaces inside the string are also counted as characters.
+
+Key Point:
+LEN() counts all characters in a string, including spaces between words.
