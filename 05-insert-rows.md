@@ -1,26 +1,38 @@
 
-The INSERT INTO statement is used to insert new records in a table.
+# Insert rows
+
+`INSERT INTO` adds new rows to a table.
 
 It is possible to write the INSERT INTO statement in two ways:
 
 1. Specify both the column names and the values to be inserted:
 
+```sql
 INSERT INTO table_name (column1, column2, column3, ...)
 VALUES (value1, value2, value3, ...);
+```
 
 2. If you are adding values for all the columns of the table, you do not need to specify the column names in the SQL query. However, make sure the order of the values is in the same order as the columns in the table. Here, the INSERT INTO syntax would be as follows:
 
+```sql
 INSERT INTO table_name
 VALUES (value1, value2, value3, ...);
+```
 
-Example:-
+Example:
 
-//inserting the data with specifying the column names and values
-insert into employee_info (empId,empName,empSalary) values (5,'Aaibhav',83400) 
+```sql
+-- Insert required columns; other columns allow NULL.
+INSERT INTO employee_info (empId, empName, empSalary)
+VALUES (1, 'Vaibhav', 83400);
 
-//inserting the data without specifying the column names ,only specifying values
-insert into employee_info values(3,'Sanish',89897,'Data Analyst',null,null)
+-- Specify all columns when providing a value for every column.
+INSERT INTO employee_info (empId, empName, empSalary, job, phone, deptID)
+VALUES (2, 'Sanish', 89897, 'Data Analyst', NULL, NULL);
+```
 
+The following examples require a `Customers` table:
+```sql
 INSERT INTO Customers (CustomerName, ContactName, Address, City, PostalCode, Country)
 VALUES ('Cardinal', 'Tom B. Erichsen', 'Skagen 21', 'Stavanger', '4006', 'Norway');
 
@@ -29,4 +41,4 @@ VALUES
 ('Cardinal', 'Tom B. Erichsen', 'Skagen 21', 'Stavanger', '4006', 'Norway'),
 ('Greasy Burger', 'Per Olsen', 'Gateveien 15', 'Sandnes', '4306', 'Norway'),
 ('Tasty Tee', 'Finn Egan', 'Streetroad 19B', 'Liverpool', 'L1 0AA', 'UK');
-
+```
