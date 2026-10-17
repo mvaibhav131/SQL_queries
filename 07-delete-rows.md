@@ -1,18 +1,30 @@
 
-The DELETE statement is used to delete existing records in a table.
+# Delete rows
 
+`DELETE` removes rows from a table. Omitting `WHERE` removes every row.
+
+```sql
 DELETE FROM table_name WHERE condition;
+```
 
-// this statement delete the row of the table where empId is 3
-delete from employee_info where empId=3
+```sql
+-- Delete the row where empId is 3.
+DELETE FROM employee_info
+WHERE empId = 3;
+```
 
 Delete All Records
 
 It is possible to delete all rows in a table without deleting the table. This means that the table structure, attributes, and indexes will be intact:
 
+```sql
 DELETE FROM table_name;
+```
 
 The following SQL statement deletes all rows in the "Customers" table, without deleting the table:
 
-Example:-
+Example:
+```sql
+-- This permanently deletes every row in Customers.
 DELETE FROM Customers;
+```

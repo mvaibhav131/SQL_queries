@@ -1,4 +1,6 @@
-An aggregate function is a function that performs a calculation on a set of values, and returns a single value.
+# Aggregate functions
+
+An aggregate function calculates a single result from a set of values.
 
 MIN() - returns the smallest value within the selected column
 MAX() - returns the largest value within the selected column
