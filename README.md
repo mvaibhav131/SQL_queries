@@ -13,7 +13,7 @@ Some examples use `Customers`, `Products`, or other sample tables. Those example
 
 ## Lessons
 
-### Foundations and data changes
+### Foundations and data changes.
 
 | # | Topic | Lesson |
 |---|---|---|
@@ -41,7 +41,7 @@ Some examples use `Customers`, `Products`, or other sample tables. Those example
 | 21 | Create a table from query results | [SELECT INTO](./21-select-into.md) |
 | 22 | Name query results and tables | [Aliases](./22-aliases.md) |
 
-### Querying beyond the basics
+### Querying beyond the basics.
 
 | # | Topic | Lesson |
 |---|---|---|
