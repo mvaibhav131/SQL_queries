@@ -11,7 +11,7 @@ A beginner-friendly SQL learning repository. The lessons use **Microsoft SQL Ser
 
 Some examples use `Customers`, `Products`, or other sample tables. Those examples require you to create the named table or install a sample database first.
 
-## Lessons
+## Lessons.
 
 ### Foundations and data changes.
 
@@ -60,7 +60,7 @@ Some examples use `Customers`, `Products`, or other sample tables. Those example
 | 35 | Calculate across related rows | [Window functions](./35-window-functions.md) |
 | 36 | Commit or undo changes safely | [Transactions](./36-transactions.md) |
 
-## Conventions and safety
+## Conventions and safety.
 
 - Unless a lesson explicitly says otherwise, examples use SQL Server/T-SQL. Syntax may differ in PostgreSQL, MySQL, SQLite, or other systems.
 - Examples are educational; check the database, table, and `WHERE` condition before running `UPDATE`, `DELETE`, `DROP`, or other write statements.
