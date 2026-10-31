@@ -1,8 +1,8 @@
-# SQL Queries
+# SQL Queries.
 
 A beginner-friendly SQL learning repository. The lessons use **Microsoft SQL Server (T-SQL)** and are intended to be run in SQL Server Management Studio (SSMS).
 
-## Start here
+## Start here.
 
 1. Follow [00 — SQL basics](./00-sql-basics.md) for query structure and terminology.
 2. Install [SSMS and LocalDB](./01-installation.md), then connect to `(localdb)\MSSQLLocalDB`.
